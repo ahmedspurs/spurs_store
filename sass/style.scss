@@ -38,13 +38,16 @@ nav
 
 .offers{
     display: flex;
+    // flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 50px;
-    
+
     .box{
         border-top-left-radius: 5px;
         padding-left: 22px;
+        margin-bottom: 30px;
         // padding: 20px;
         box-shadow: 1px 2px 1px 2px $text-color;
 
@@ -70,4 +73,12 @@ nav
             color: $text-color;
         }   
     }
+}
+@media(min-width : 600px){
+    .offers{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }    
 }
