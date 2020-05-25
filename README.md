@@ -6,3 +6,4 @@
 * booststrap 
 * swiper js
 * sass
+* font awesome
