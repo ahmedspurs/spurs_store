@@ -40,15 +40,34 @@ nav
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
     
     .box{
-        width: 18%;
+        border-top-left-radius: 5px;
         padding-left: 22px;
-        border-radius: 8px;
-        background-color: #f1ebeb;
-        // margin: 20px;
+        // padding: 20px;
+        box-shadow: 1px 2px 1px 2px $text-color;
+
         img{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
             margin-left: -20px;
+            width: 250px;
         }
+        .content{
+            h2{
+                color: #6e6a6a;
+            }
+            button{
+                margin : 18px 0px;
+            }
+        }
+    }
+
+    .button{
+
+        button{
+            color: $text-color;
+        }   
     }
 }
