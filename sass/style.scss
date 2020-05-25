@@ -1,0 +1,54 @@
+$text-color : #d1d1d1;
+$primary-color : #f4f4f4;
+$secondary-color : rgb(29, 26, 26);
+nav
+{
+    .navbar-header{
+        img{
+            width: 30px;
+            height: 30px;
+            margin-top: -5px;
+        }
+    }
+}
+
+.bg-img{
+    width: 100%;
+    img{
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+    }
+
+}
+@media screen and (max-width : 375px){
+    .bg-img{
+        img{
+            width: 120px;
+            height: 120px;
+            margin: 20px;
+            margin-left: 100px;
+        }
+    
+    }
+}
+
+
+// offers section
+
+.offers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .box{
+        width: 18%;
+        padding-left: 22px;
+        border-radius: 8px;
+        background-color: #f1ebeb;
+        // margin: 20px;
+        img{
+            margin-left: -20px;
+        }
+    }
+}
